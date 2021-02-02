@@ -1,10 +1,10 @@
 [
     {
-        "title":"inception",
-        "releaseYear":"2010",
+        "title":"Tenet ",
+        "releaseYear":"2020",
         "director":"Christopher Nolan",
         "writer":"Christopher Nolan",
-        "description":"A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+        "description":"Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
         "image":"https://i.gyazo.com/b59a36ad9b5bcd8e53fc2f067f32e243.png"
     },
     {
@@ -14,5 +14,162 @@
         "writer":"J.R.R. Tolkien",
         "description":"A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
         "image":"https://i.gyazo.com/9de37d9d8547c105d810595d8fc66c31.jpg"
+    },
+    {
+        "title":"Joker",
+        "releaseYear":"2019",
+        "director":"Avi Jack",
+        "writer":"Johan Bull",
+        "description":"A man tring to be a clown, founding himself and overcoming abstocles.",
+        "image":"https://cdn.pastemagazine.com/www/system/images/photo_albums/best-movie-posters-2016/large/moonlight-ver2-xlg.jpg?1384968217"
+    },
+    {
+        "title":"Spider-man",
+        "director":"Loly Rock",
+        "writer":"M.H hole",
+        "description":"Meet a man who dream to be a spider one day, running from home chasing hes dream.",
+        "image":"https://cdn.pastemagazine.com/www/system/images/photo_albums/best-movie-posters-2016/large/moonlight-ver2-xlg.jpg?1384968217"
+    },
+    {
+        "title":"Venom",
+        "director":"Avi Arad",
+        "writer":"Matt Tolmach",
+        "description":"After Venom appeared in Spider-Man 3 (2007), Sony attempted to develop a spin-off film based on the character. Work began in March 2016",
+        "image":"http://www.impawards.com/2020/posters/call_of_the_wild.jpg"
+    },
+    {
+        "title":"Spider-man into the spider-verse",
+        "director":"Loly Rock",
+        "writer":"M.H hole",
+        "description":"Meet again a diffrent man who dream to be a spider one day but also running from home chasing hes dream.",
+        "image":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/4c177c2b7f7bb9a679f089bcb50f844e_3e89eb5d-ffbd-4033-a00f-e595a3ef2e2a_240x360_crop_center.progressive.jpg?v=1573587540"
+    },
+    {
+        "title":"Mr-Bean",
+        "director":"Johan Bean",
+        "writer":"B.A Boyeka",
+        "description":"007 an agent tying to save the world form himself",
+        "image":"https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-spidermanspiderverse-700x1038.jpg"
+    },
+    {
+        "title":"Last Action Hero",
+        "director":"Vendam Jacko",
+        "writer":"Yakob Wilson",
+        "description":"A ball that lost in far island, tring to survive the cold weathere",
+        "image":"http://www.impawards.com/2020/posters/call_of_the_wild.jpg"},
+    {
+            "title":"Hercules",
+            "director":"Aronload Who",
+            "writer":"Poly Holmes",
+            "description":"One day a Lovely day and some gaint going around",
+            "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+    },  
+    {
+        "title":"Hercules",
+        "director":"Aronload Who",
+        "writer":"Poly Holmes",
+        "description":"One day a Lovely day and some gaint going around",
+        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+    },  
+    {
+        "title":"kong fu panda",
+        "director":"Aronload Who",
+        "writer":"Poly Holmes",
+        "description":"One day a Lovely day and some gaint going around",
+        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+    },  
+    {
+        "title":"Shaft",
+        "director":"Aronload Who",
+        "writer":"Poly Holmes",
+        "description":"One day a Lovely day and some gaint going around",
+        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+    },  
+    {
+        "title":"Next gen",
+        "director":"Aronload Who",
+        "writer":"Poly Holmes",
+        "description":"One day a Lovely day and some gaint going around",
+        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+    },  
+    {
+        "title":"Englsih",
+        "director":"Aronload Who",
+        "writer":"Poly Holmes",
+        "description":"One day a Lovely day and some gaint going around",
+        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+    },  
+    {
+        "title":"fearless",
+        "director":"Aronload Who",
+        "writer":"Poly Holmes",
+        "description":"One day a Lovely day and some gaint going around",
+        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+    },  
+    {
+        "title":"ghost",
+        "director":"Aronload Who",
+        "writer":"Poly Holmes",
+        "description":"One day a Lovely day and some gaint going around",
+        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+    },  
+    {
+        "title":"kong fu pand 2",
+        "director":"Aronload Who",
+        "writer":"Poly Holmes",
+        "description":"One day a Lovely day and some gaint going around",
+        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+    },
+    {
+        "title":"kong fu pand 2",
+        "director":"Aronload Who",
+        "writer":"Poly Holmes",
+        "description":"One day a Lovely day and some gaint going around",
+        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+    },
+    {
+        "title":"kong fu pand 2",
+        "director":"Aronload Who",
+        "writer":"Poly Holmes",
+        "description":"One day a Lovely day and some gaint going around",
+        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+    },
+    {
+        "title":"kong fu pand 2",
+        "director":"Aronload Who",
+        "writer":"Poly Holmes",
+        "description":"One day a Lovely day and some gaint going around",
+        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+    },
+    {
+        "title":"kong fu pand 2",
+        "director":"Aronload Who",
+        "writer":"Poly Holmes",
+        "description":"One day a Lovely day and some gaint going around",
+        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+    },
+    {
+        "title":"kong fu pand 2",
+        "director":"Aronload Who",
+        "writer":"Poly Holmes",
+        "description":"One day a Lovely day and some gaint going around",
+        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+    },
+    {
+        "title":"kong fu pand 2",
+        "director":"Aronload Who",
+        "writer":"Poly Holmes",
+        "description":"One day a Lovely day and some gaint going around",
+        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+    },
+    {
+        "title":"kong fu pand 2",
+        "director":"Aronload Who",
+        "writer":"Poly Holmes",
+        "description":"One day a Lovely day and some gaint going around",
+        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
     }
+
+        
+    
 ]
