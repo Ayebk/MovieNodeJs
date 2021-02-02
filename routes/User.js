@@ -34,7 +34,7 @@ router.post('/register', function (req, res, next) {
 
 router.post('/login', function (req, res, next) {
     let username = req.body.username;
-    let password = passwordHash.generate(req.body.password);
+    let password = req.body.password;
 
     var sql = "SELECT * FROM `users` WHERE username = ?";
 
@@ -44,11 +44,13 @@ router.post('/login', function (req, res, next) {
             res.send("and error occured while trying to login");
         }
         else {
-            console.log(results);
-            console.log(password);
-            if(results.password === password)
+            if(passwordHash.verify(password,results[0].password))
             {
-                return ""+results.id;
+                res.send(""+results[0].id);
+            }
+            else
+            {
+                res.send("incorrect username or password");
             }
         }
     })

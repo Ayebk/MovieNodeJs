@@ -9,7 +9,7 @@ const express = require('express');
 let server = express();
 let cors = require('cors');
 let bodyParser = require('body-parser');
-server.use(cors())
+server.use(cors('*'))
 server.use(bodyParser.urlencoded({ extended: false }))
 server.use(bodyParser.json())
 const { request, response } = require('express');
@@ -24,8 +24,6 @@ server.use('/user',user);
 
 const dbService = require('./routes/dbService');
 
-
-server.use(cors());
 server.use(express.json());
 server.use(express.urlencoded({ extended: false }));
 
