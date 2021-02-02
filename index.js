@@ -4,20 +4,30 @@
 
 
 // Define a server
-const PORT = 3000;
+const PORT = 65000;
 const express = require('express');
-const server = express();
-const cors = require('cors');
+let server = express();
+let cors = require('cors');
+let bodyParser = require('body-parser');
+server.use(cors())
+server.use(bodyParser.urlencoded({ extended: false }))
+server.use(bodyParser.json())
+const { request, response } = require('express');
+server.options('*', cors());
 
+var user = require('./routes/User');
+
+
+server.use('/user',user);
 
 //const dbService = require('./dbService');
 
-const dbService = require('./dbService');
+const dbService = require('./routes/dbService');
 
 
 server.use(cors());
 server.use(express.json());
-server.use(express.urlencoded({ extended : false }));
+server.use(express.urlencoded({ extended: false }));
 
 
 
@@ -39,13 +49,9 @@ server.post('/insert', (request, response) => {
 
 
 // read
-server.get('/getAll', (request, response) => {
-
-    const result = db.getAllData();
-    
-    result
-    .then(data => response.json({data : data}))
-    .catch(err => console.log(err));
+server.get('/getAllMovies', (request, response) => {
+    var json = require('./movies.json');
+    response.send(json)
 })
 
 // update
@@ -89,13 +95,20 @@ server.get('/search/:name', (request, response) => {
 
 
 
-// read
-server.get('/getAll', (request, response) => {
-    console.log('test1');
+// greeting for debuging purposes
+server.get('/greeting', (request, response) => {
+    
+    response.send("Hello there!");
+})
+
+//get all movies in an array
+server.get('/getAllMovies', (request, response) => {
+    var json = require('./movies.json')
+    response.send(json);
 })
 
 server.listen(PORT, () => {
-    console.log(`server is listenning on port: ${PORT}`);    
+    console.log(`server is listenning on port: ${PORT}`);
 });
 
 

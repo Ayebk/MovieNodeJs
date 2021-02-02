@@ -1,0 +1,18 @@
+[
+    {
+        "title":"inception",
+        "releaseYear":"2010",
+        "director":"Christopher Nolan",
+        "writer":"Christopher Nolan",
+        "description":"A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+        "image":"https://i.gyazo.com/b59a36ad9b5bcd8e53fc2f067f32e243.png"
+    },
+    {
+        "title":"The Lord of the Rings: The Fellowship of the Ring",
+        "releaseYear":"2001",
+        "director":"Peter Jackson",
+        "writer":"J.R.R. Tolkien",
+        "description":"A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+        "image":"https://i.gyazo.com/9de37d9d8547c105d810595d8fc66c31.jpg"
+    }
+]
