@@ -16,9 +16,10 @@ const { request, response } = require('express');
 server.options('*', cors());
 
 var user = require('./routes/User');
-
+var movie = require('./routes/Movie');
 
 server.use('/user',user);
+server.use('/movie',movie);
 
 //const dbService = require('./dbService');
 
@@ -106,7 +107,7 @@ server.get('/getAllMovies', (request, response) => {
 })
 
 server.listen(PORT, () => {
-    console.log(`server is listenning on port: ${PORT}`);
+    console.log(`server is listening on port: ${PORT}`);
 });
 
 

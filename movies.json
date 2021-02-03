@@ -1,175 +1,124 @@
 [
     {
-        "title":"Tenet ",
-        "releaseYear":"2020",
+        "title":"Inception ",
         "director":"Christopher Nolan",
         "writer":"Christopher Nolan",
-        "description":"Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
-        "image":"https://i.gyazo.com/b59a36ad9b5bcd8e53fc2f067f32e243.png"
+        "description":"A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+        "image":"https://i.gyazo.com/b59a36ad9b5bcd8e53fc2f067f32e243.png",
+        "genre":"Action, Adventure, Sci-Fi",
+        "stars":0,
+        "releaseYear":"2010",
+        "count":0
     },
     {
         "title":"The Lord of the Rings: The Fellowship of the Ring",
-        "releaseYear":"2001",
         "director":"Peter Jackson",
         "writer":"J.R.R. Tolkien",
         "description":"A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
-        "image":"https://i.gyazo.com/9de37d9d8547c105d810595d8fc66c31.jpg"
+        "image":"https://i.gyazo.com/9de37d9d8547c105d810595d8fc66c31.jpg",
+        "genre":"Action, Adventure, Drama",
+        "stars":0,
+        "releaseYear":"2001",
+        "count":0
     },
     {
         "title":"Joker",
+        "director":"Todd Phillips",
+        "writer":"Todd Phillips",
+        "description":"In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+        "image":"https://i.gyazo.com/8e6c8433224032ee5b4ad19fa29ba833.jpg",
+        "genre":"Crime, Drama, Thriller",
+        "stars":0,
         "releaseYear":"2019",
-        "director":"Avi Jack",
-        "writer":"Johan Bull",
-        "description":"A man tring to be a clown, founding himself and overcoming abstocles.",
-        "image":"https://cdn.pastemagazine.com/www/system/images/photo_albums/best-movie-posters-2016/large/moonlight-ver2-xlg.jpg?1384968217"
+        "count":0
     },
     {
-        "title":"Spider-man",
-        "director":"Loly Rock",
-        "writer":"M.H hole",
-        "description":"Meet a man who dream to be a spider one day, running from home chasing hes dream.",
-        "image":"https://cdn.pastemagazine.com/www/system/images/photo_albums/best-movie-posters-2016/large/moonlight-ver2-xlg.jpg?1384968217"
+        "title":"Spider-Man: Homecoming",
+        "director":"Jon Watts",
+        "writer":"Jonathan Goldstein",
+        "description":"Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
+        "image":"https://i.gyazo.com/fbf30be31f567295c7bea92e2ffd0d8e.jpg",
+        "genre":"Action, Adventure, Sci-Fi",
+        "stars":0,
+        "releaseYear":"2017",
+        "count":0
     },
     {
         "title":"Venom",
-        "director":"Avi Arad",
-        "writer":"Matt Tolmach",
-        "description":"After Venom appeared in Spider-Man 3 (2007), Sony attempted to develop a spin-off film based on the character. Work began in March 2016",
-        "image":"http://www.impawards.com/2020/posters/call_of_the_wild.jpg"
+        "director":"Ruben Fleischer",
+        "writer":"Jeff Pinkner",
+        "description":"A failed reporter is bonded to an alien entity, one of many symbiotes who have invaded Earth. But the being takes a liking to Earth and decides to protect it.",
+        "image":"https://i.gyazo.com/004236e61dbab87c57e42b6e41482dd8.png",
+        "genre":"Action, Adventure, Sci-Fi",
+        "stars":0,
+        "releaseYear":"2018",
+        "count":0
     },
     {
-        "title":"Spider-man into the spider-verse",
-        "director":"Loly Rock",
-        "writer":"M.H hole",
-        "description":"Meet again a diffrent man who dream to be a spider one day but also running from home chasing hes dream.",
-        "image":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/4c177c2b7f7bb9a679f089bcb50f844e_3e89eb5d-ffbd-4033-a00f-e595a3ef2e2a_240x360_crop_center.progressive.jpg?v=1573587540"
+        "title":"The Shawshank Redemption",
+        "director":"Frank Darabont",
+        "writer":"Stephen King",
+        "description":"Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "image":"https://i.gyazo.com/e2bd52df050e7c0c937a299507a16196.png",
+        "genre":"Drama",
+        "stars":0,
+        "releaseYear":"1994",
+        "count":0
     },
     {
-        "title":"Mr-Bean",
-        "director":"Johan Bean",
-        "writer":"B.A Boyeka",
-        "description":"007 an agent tying to save the world form himself",
-        "image":"https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-spidermanspiderverse-700x1038.jpg"
+        "title":"Forrest Gump",
+        "director":"Robert Zemeckis",
+        "writer":"Winston Groom",
+        "description":"The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate and other historical events unfold through the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+        "image":"https://i.gyazo.com/41760239f17a78103b71b00c0137c506.png",
+        "genre":"Drama, Romance, Comedy",
+        "stars":0,
+        "releaseYear":"1994",
+        "count":0
     },
     {
         "title":"Last Action Hero",
-        "director":"Vendam Jacko",
-        "writer":"Yakob Wilson",
-        "description":"A ball that lost in far island, tring to survive the cold weathere",
-        "image":"http://www.impawards.com/2020/posters/call_of_the_wild.jpg"},
-    {
-            "title":"Hercules",
-            "director":"Aronload Who",
-            "writer":"Poly Holmes",
-            "description":"One day a Lovely day and some gaint going around",
-            "image":"http://www.impawards.com/2020/posters/way_back.jpg"
-    },  
-    {
-        "title":"Hercules",
-        "director":"Aronload Who",
-        "writer":"Poly Holmes",
-        "description":"One day a Lovely day and some gaint going around",
-        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
-    },  
-    {
-        "title":"kong fu panda",
-        "director":"Aronload Who",
-        "writer":"Poly Holmes",
-        "description":"One day a Lovely day and some gaint going around",
-        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
-    },  
-    {
-        "title":"Shaft",
-        "director":"Aronload Who",
-        "writer":"Poly Holmes",
-        "description":"One day a Lovely day and some gaint going around",
-        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
-    },  
-    {
-        "title":"Next gen",
-        "director":"Aronload Who",
-        "writer":"Poly Holmes",
-        "description":"One day a Lovely day and some gaint going around",
-        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
-    },  
-    {
-        "title":"Englsih",
-        "director":"Aronload Who",
-        "writer":"Poly Holmes",
-        "description":"One day a Lovely day and some gaint going around",
-        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
-    },  
-    {
-        "title":"fearless",
-        "director":"Aronload Who",
-        "writer":"Poly Holmes",
-        "description":"One day a Lovely day and some gaint going around",
-        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
-    },  
-    {
-        "title":"ghost",
-        "director":"Aronload Who",
-        "writer":"Poly Holmes",
-        "description":"One day a Lovely day and some gaint going around",
-        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
-    },  
-    {
-        "title":"kong fu pand 2",
-        "director":"Aronload Who",
-        "writer":"Poly Holmes",
-        "description":"One day a Lovely day and some gaint going around",
-        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+        "director":"John McTiernan",
+        "writer":"Zak Penn",
+        "description":"With the help of a magic ticket, a young movie fan is transported into the fictional world of his favorite action movie character.",
+        "image":"https://i.gyazo.com/2b95e473e6a072ed4eea65bb9f4d94ae.png",
+        "genre":"Action, Adventure, Comedy",
+        "stars":0,
+        "releaseYear":"1993",
+        "count":0
     },
     {
-        "title":"kong fu pand 2",
-        "director":"Aronload Who",
-        "writer":"Poly Holmes",
-        "description":"One day a Lovely day and some gaint going around",
-        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+        "title":"The King of Staten Island",
+        "director":"Judd Apatow",
+        "writer":"Judd Apatow",
+        "description":"Scott has been a case of arrested development since his firefighter dad died. He spends his days smoking weed and dreaming of being a tattoo artist until events force him to grapple with his grief and take his first steps forward in life.",
+        "image":"https://i.gyazo.com/da8be8b1411b693c9aa0e910a2cf5fe6.png",
+        "genre":"Comedy, Drama",
+        "stars":0,
+        "releaseYear":"2020",
+        "count":0
     },
     {
-        "title":"kong fu pand 2",
-        "director":"Aronload Who",
-        "writer":"Poly Holmes",
-        "description":"One day a Lovely day and some gaint going around",
-        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+        "title":"The Gentlemen",
+        "director":"Guy Ritchie",
+        "writer":"Guy Ritchie",
+        "description":"An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
+        "image":"https://i.gyazo.com/25cc264d059ab38c55c38acaa48e7b3b.png",
+        "genre":"Action, Comedy, Crime",
+        "stars":0,
+        "releaseYear":"2019",
+        "count":0
     },
     {
-        "title":"kong fu pand 2",
-        "director":"Aronload Who",
-        "writer":"Poly Holmes",
-        "description":"One day a Lovely day and some gaint going around",
-        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
-    },
-    {
-        "title":"kong fu pand 2",
-        "director":"Aronload Who",
-        "writer":"Poly Holmes",
-        "description":"One day a Lovely day and some gaint going around",
-        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
-    },
-    {
-        "title":"kong fu pand 2",
-        "director":"Aronload Who",
-        "writer":"Poly Holmes",
-        "description":"One day a Lovely day and some gaint going around",
-        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
-    },
-    {
-        "title":"kong fu pand 2",
-        "director":"Aronload Who",
-        "writer":"Poly Holmes",
-        "description":"One day a Lovely day and some gaint going around",
-        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
-    },
-    {
-        "title":"kong fu pand 2",
-        "director":"Aronload Who",
-        "writer":"Poly Holmes",
-        "description":"One day a Lovely day and some gaint going around",
-        "image":"http://www.impawards.com/2020/posters/way_back.jpg"
+        "title":"Another Round",
+        "director":"Thomas Vinterberg",
+        "writer":"Thomas Vinterberg",
+        "description":"Four friends, all high school teachers, test a theory that they will improve their lives by maintaining a constant level of alcohol in their blood.",
+        "image":"https://i.gyazo.com/25729b2820262ac0343427d9bd1437b0.png",
+        "genre":"Comedy, Drama",
+        "stars":0,
+        "releaseYear":"2020",
+        "count":0
     }
-
-        
     
 ]
