@@ -17,35 +17,16 @@ server.options('*', cors());
 
 var user = require('./routes/User');
 var movie = require('./routes/Movie');
+var review = require('./routes/Review');
 
 server.use('/user',user);
 server.use('/movie',movie);
-
-//const dbService = require('./dbService');
+server.use('/review',review);
 
 const dbService = require('./routes/dbService');
 
 server.use(express.json());
 server.use(express.urlencoded({ extended: false }));
-
-
-
-/*
-// create
-server.post('/insert', (request, response) => {
-    const { name } = request.body;
-    
-    const result = db.insertNewName(name);
-
-    result
-    .then(data => response.json({ data: data}))
-    .catch(err => console.log(err));
-});
-
-*/
-
-
-
 
 // read
 server.get('/getAllMovies', (request, response) => {
