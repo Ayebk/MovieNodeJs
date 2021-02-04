@@ -57,11 +57,5 @@ router.post('/login', function (req, res, next) {
 
 });
 
-/* GET home page. */
-router.get('/time', function (req, res, next) {
-    let time = Date();
-    res.send(`${time}`);
-});
-
 module.exports = router;
 
