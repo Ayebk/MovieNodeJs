@@ -21,10 +21,10 @@ router.post('/addToWatchedList', function (req, res, next) {
     connection.query(sql, [userid, movieid], function (error, results, fields) {
         if (error) {
             console.log(error);
-            res.send("error occured");
+            res.send(JSON.stringify("error occured"));
         }
         else {
-            res.send("success");
+            res.send(JSON.stringify("success"));
         }
     });
 });
@@ -39,10 +39,10 @@ router.post('/removeFromWatchedList', function (req, res, next) {
     connection.query(sql, [userid, movieid], function (error, results, fields) {
         if (error) {
             console.log(error);
-            res.send("error occured");
+            res.send(JSON.stringify("error occured"));
         }
         else {
-            res.send("success");
+            res.send(JSON.stringify("success"));
         }
     });
 });
@@ -51,12 +51,12 @@ router.post('/removeFromWatchedList', function (req, res, next) {
 router.post('/WatchedList', function (req, res, next) {
     let userid = req.body.userid;
 
-    var sql = "SELECT `watched`.`id` as watchedid, `watched`.`movieid`, `watched`.`userid`, `reviews`.`id` as reviewid, `reviews`.`content`, `reviews`.`rating` FROM `watched` LEFT JOIN `reviews` ON `watched`.`userid` = `reviews`.`userid` WHERE `watched`.`userid` = ?";
+    var sql = "SELECT * FROM `movies` INNER JOIN ((SELECT `watched`.`id` as watchedid, `watched`.`movieid`, `watched`.`userid`, `reviews`.`id` as reviewid, `reviews`.`content`, `reviews`.`rating`, `reviews`.`movieid` as reviewMovieId FROM `watched` LEFT JOIN `reviews` ON `watched`.`userid` = `reviews`.`userid` WHERE `watched`.`userid` = ?) as `B`) ON `movies`.`id` = `B`.`movieid`";
 
     connection.query(sql, [userid], function (error, results, fields) {
         if (error) {
             console.log(error);
-            res.send("error occured");
+            res.send(JSON.stringify("error occured"));
         }
         else {
             res.send(JSON.stringify(results));
