@@ -54,7 +54,7 @@ router.get('/AllComedy', function (req, res, next) {
 router.post('/Suggest', function (req, res, next) {
     let id = req.body.id;
 
-    var sql = "SELECT `A`.* FROM `movies` as `A` LEFT JOIN (SELECT * FROM `reviews` WHERE `userid` = ?) as `B` ON `A`.`id` = `B`.`movieid` WHERE `B`.`movieid` IS NULL ORDER BY RAND() LIMIT 1";
+    var sql = "SELECT `A`.* FROM `movies` as `A` LEFT JOIN (SELECT * FROM `watched` WHERE `userid` = ?) as `B` ON `A`.`id` = `B`.`movieid` WHERE `B`.`movieid` IS NULL ORDER BY RAND() LIMIT 1";
 
     connection.query(sql, [id], function (error, results, fields) {
         if (error) {

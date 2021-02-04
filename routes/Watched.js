@@ -64,6 +64,30 @@ router.post('/WatchedList', function (req, res, next) {
     });
 });
 
+router.post('/checkIfUserWatched', function(req, res, next){
+    let userid = req.body.userid;
+    let movieid = req.body.movieid;
+
+    var sql = "SELECT * FROM `watched` WHERE `movieid` = ? AND `userid` = ?";
+
+    connection.query(sql, [movieid, userid], function (error, results, fields) {
+        if (error) {
+            console.log(error);
+            res.send(JSON.stringify("error occured"));
+        }
+        else {
+            if(results[0] != null)
+            {
+                res.send(JSON.stringify("true"));
+            }
+            else
+            {
+                res.send(JSON.stringify("false"));
+            }
+        }
+    });
+});
+
 
 module.exports = router;
 
