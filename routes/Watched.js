@@ -51,7 +51,7 @@ router.post('/removeFromWatchedList', function (req, res, next) {
 router.post('/WatchedList', function (req, res, next) {
     let userid = req.body.userid;
 
-    var sql = "SELECT * FROM `movies` INNER JOIN ((SELECT `watched`.`id` as watchedid, `watched`.`movieid`, `watched`.`userid`, `reviews`.`id` as reviewid, `reviews`.`content`, `reviews`.`rating`, `reviews`.`movieid` as reviewMovieId FROM `watched` LEFT JOIN `reviews` ON `watched`.`userid` = `reviews`.`userid` WHERE `watched`.`userid` = ?) as `B`) ON `movies`.`id` = `B`.`movieid`";
+    var sql = "SELECT * FROM `movies` INNER JOIN ((SELECT `watched`.`id` as watchedid, `watched`.`movieid`, `watched`.`userid`, `reviews`.`id` as reviewid, `reviews`.`content`, `reviews`.`rating`, `reviews`.`movieid` as reviewMovieId FROM `watched` LEFT JOIN `reviews` ON `watched`.`movieid` = `reviews`.`movieid` WHERE `watched`.`userid` = ?) as `B`) ON `movies`.`id` = `B`.`movieid`";
 
     connection.query(sql, [userid], function (error, results, fields) {
         if (error) {

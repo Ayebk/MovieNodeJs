@@ -65,7 +65,7 @@ router.post('/PostReview', function (req, res, next) {
         connection.query(sql, [movieid, userid, content, rating], function (error, results, fields) {
             if (error) {
                 console.log(error);
-                res.send("an error occured when trying insert review");
+                res.send(JSON.stringify("an error occured when trying insert review"));
             }
             else {
                 CalculateAndUpdateMovieStars(movieid, rating, false, res);
@@ -77,7 +77,7 @@ router.post('/PostReview', function (req, res, next) {
         connection.query(sql, [content, rating, id], function (error, results, fields) {
             if (error) {
                 console.log(error);
-                res.send("an error occured when trying update review");
+                res.send(JSON.stringify("an error occured when trying update review"));
             }
             else {
                 CalculateAndUpdateMovieStars(movieid, rating, true, res);
@@ -108,7 +108,7 @@ function CalculateAndUpdateMovieStars(movieid, rating, update, res) {
                 }
             }
             else {
-                count + 1;
+                count = count + 1;
 
                 stars = (stars * (count - 1) + rating) / count;
             }
@@ -123,10 +123,10 @@ function UpdateMovieStars(starsUpdate, countUpdate, movieid, res) {
     connection.query(sql, [starsUpdate, countUpdate, movieid], function (error, results, fields) {
         if (error) {
             console.log(error);
-            res.send("an error occured when trying update review");
+            res.send(JSON.stringify("an error occured when trying update review"));
         }
         else {
-            res.send("success");
+            res.send(JSON.stringify("success"));
         }
     });
 }
