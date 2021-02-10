@@ -1,15 +1,12 @@
 
+var connectionJson = require('../dbConnection.json');
 var express = require('express');
 var router = express.Router();
-var passwordHash = require('password-hash');
 var mysql = require('mysql');
 
-var connection = mysql.createConnection({
-    host: 'sql7.freemysqlhosting.net',
-    user: 'sql7390289',
-    password: 'Sg65X9Idd9',
-    database: 'sql7390289'
-});
+var connection = mysql.createConnection(
+    connectionJson
+);
 
 //returns a 3 good movie reviews given a movie id
 router.post('/GetGoodReviews', function (req, res, next) {
