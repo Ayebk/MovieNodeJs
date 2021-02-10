@@ -12,6 +12,19 @@ var connection = mysql.createConnection({
 });
 
 
+router.post('/Like',function(req, res, next){
+    let input = '%' + req.body.input +'%';
+    var sql = "SELECT * FROM `movies` WHERE title LIKE ?";
+    connection.query(sql, [input], function(error, results, fields){
+        if(error){
+            console.log(error);
+            res.send(JSON.stringify("error occured"));
+        }else{
+            res.send(JSON.stringify(results));
+        }
+    })
+})
+
 router.get('/All', function (req, res, next) {
     var sql = "SELECT * FROM `movies`";
     connection.query(sql, [], function (error, results, fields) {
